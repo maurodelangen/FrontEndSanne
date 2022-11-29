@@ -16,14 +16,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Sanne 't Hooft (vervangen door jouw naam)
+Mauro de Langen
 
   #### Je startniveau:
-  hier je startniveau (kies uit zwart, rood óf blauw)
+Blauw tot Rood
 
   #### Je focus:
-  hier je focus (kies uit responsive óf surface plane)
- 
+Responsive  (ik wil wel graag surface level dingen doen)
+
 </details>
 
 
@@ -36,16 +36,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  garagenoord.com
 
-  #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  #### Screenshot(s) van de eerste pagina (small screen):
+  https://www.garagenoord.com/info
+  <img src="readme-images/mobile_info.png" alt="infopagina/landing">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
- 
+https://www.garagenoord.com/club  
+  <img src="readme-images/mobile_club.png" alt="agendapagina">
+
 </details>
 
 
@@ -64,7 +64,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 
-  #### Muis en Toetsenbord 
+  #### Muis en Toetsenbord
   Hier korte omschrijving (met indien nodig afbeeldingen)
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
@@ -76,7 +76,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 
-  #### Visueel (brillen, contrast, kleurenblind, dark/light). 
+  #### Visueel (brillen, contrast, kleurenblind, dark/light).
   Hier korte omschrijving (met indien nodig afbeeldingen)
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
@@ -90,13 +90,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
-  ### de hele pagina: 
+  ### de hele pagina:
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
 
-  ### dynamisch deel (bijv menu): 
+  ### dynamisch deel (bijv menu):
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
-  ### wellicht nog een dynamisch deel (bijv filter): 
+  ### wellicht nog een dynamisch deel (bijv filter):
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
@@ -185,7 +185,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 
-  #### Muis en Toetsenbord 
+  #### Muis en Toetsenbord
   Hier korte omschrijving (met indien nodig afbeeldingen)
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
@@ -197,7 +197,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 
-  #### Visueel (brillen, contrast, kleurenblind, dark/light). 
+  #### Visueel (brillen, contrast, kleurenblind, dark/light).
   Hier korte omschrijving (met indien nodig afbeeldingen)
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
@@ -250,7 +250,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
 
 
-  ### Dit ging goed/Heb ik geleerd: 
+  ### Dit ging goed/Heb ik geleerd:
   Korte omschrijving met plaatjes
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
