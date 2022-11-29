@@ -36,8 +36,8 @@ Responsive  (ik wil wel graag surface level dingen doen)
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  garagenoord.com
-
+ https://www.garagenoord.com
+ 
   #### Screenshot(s) van de eerste pagina (small screen):
   https://www.garagenoord.com/info
   <img src="readme-images/mobile_info.png" alt="infopagina/landing">
