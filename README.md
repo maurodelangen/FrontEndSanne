@@ -105,7 +105,7 @@ De website opent meteen op de span, een herhalende tekst, de gebruiker hoort dus
 
 
   ### dynamisch deel (bijv menu):
-  <video src="readme-images/dynamisch.mov">
+  <video src="readme-images/dynamisch.mp4">
 
   ### wellicht nog een dynamisch deel (bijv filter):
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
