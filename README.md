@@ -56,16 +56,24 @@ https://www.garagenoord.com/club
   <summary>uitwerken na test in 1e werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
+De website opent meteen op de span, een herhalende tekst, de gebruiker hoort dus heel vaak 'garage noord'
+
+
+
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+
+  de screenreader geeft de naam van alle links in de nav en geeft aan waar ze heen gaan.
+  alle items in de nav zijn h2 items. de tekst op de pagina heeft geen headings, alleen p's
+  alles wordt voorgelezen als de bestandsnamen, je hoort dus vaak 'underscore'
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 
   #### Muis en Toetsenbord
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  je komt met een toetsenbord niet uit de nav
+
+  de muis in combinatie met reader geeft aan of links al bezocht zijn of nog niet
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
@@ -91,10 +99,13 @@ https://www.garagenoord.com/club
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdown_info_desktop.png"  alt="breakdown van desktop info">
+
+  <img src="readme-images/breakdown_club.png"  alt="breakdown van desktop info">
+
 
   ### dynamisch deel (bijv menu):
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <video src="readme-images/dynamisch.mov">
 
   ### wellicht nog een dynamisch deel (bijv filter):
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
