@@ -1,18 +1,18 @@
 /* eigen fonts bron: garagenoord rip                                   */
 @font-face {
   font-family: pirelli;
-  src: url(/fonts/pirelli-regular.ttf);
+  src: url(../fonts/pirelli-regular.ttf);
 }
 
 @font-face {
   font-family: NeuePlak;
-  src: url(/fonts/NeuePlak-NarrowBlack.ttf);
+  src: url(../fonts/NeuePlak-NarrowBlack.ttf);
 }
 
 
 @font-face {
   font-family: NeuePlakNarrow;
-  src: url(/fonts/NeuePlak-NarrowRegular.woff2);
+  src: url(../fonts/NeuePlak-NarrowRegular.woff2);
 }
 
 
@@ -101,6 +101,7 @@ header ul li a {
   font-family: "NeuePlak";
   color: #B2B2B1;
   font-size: 7vw;
+  margin-left:.5em;
 }
 
 header ul li{
