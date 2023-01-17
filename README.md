@@ -36,8 +36,8 @@ Responsive  (ik wil wel graag surface level dingen doen)
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
- https://www.garagenoord.com
- 
+   https://www.garagenoord.com/
+
   #### Screenshot(s) van de eerste pagina (small screen):
   https://www.garagenoord.com/info
   <img src="readme-images/mobile_info.png" alt="infopagina/landing">
@@ -161,11 +161,23 @@ De website opent meteen op de span, een herhalende tekst, de gebruiker hoort dus
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Mauro           |
+  Vragen fed
+  Uitlijnen helften
+  Linker helft is niet 100% maar heeft nog ruimte beneden
+  Hoe coveren helften hele pagina
+  Hoe responsive tekst header 
+
+  semantiek
+
+  Items vullen niet de hele pagina (Groen in blauw)
+
+  Stein               
+
+  Chelsey              |
+
+  Kenneth    |
+
 
 
   ### Verslag van meeting
@@ -241,10 +253,19 @@ De website opent meteen op de span, een herhalende tekst, de gebruiker hoort dus
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+padding, border bottom-border top
+
+verborgen h1
+
+br -> meerdere p
+
+huisregels er bij
+
+img's in div
+
+opening times -> ul
+
+socials -> nav ul li
 
 </details>
 
@@ -284,8 +305,15 @@ De website opent meteen op de span, een herhalende tekst, de gebruiker hoort dus
 
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. https://www.w3schools.com/css/css3_buttons.asp
+  2. https://www.w3schools.com/tags/tag_comment.asp
+  3. https://www.w3schools.com/css/css_text.asp
+  4. https://www.w3schools.com/html/html_paragraphs.asp
+  5. https://www.youtube.com/watch?v=dIyVTjJAkLw
+  6. https://blog.hubspot.com/website/scrolling-text-css
+  7. https://www.youtube.com/watch?v=OJ6byQDF9-Y
+  8. https://www.youtube.com/watch?v=WWN-68aQ-Qk
+  8. https://www.youtube.com/watch?v=ZOkuKkiqSlw
+  10.
 
 </details>

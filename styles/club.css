@@ -1,0 +1,49 @@
+
+main li{
+  display: grid;
+  grid-template-columns: 20% 1fr max-content;
+  grid-template-rows: max-content minmax(11vw, max-content);
+  gap: 1em;
+border-bottom: 2px solid black;
+
+padding-bottom:1em;
+
+}
+
+main li h2{
+  grid-row-start: 2;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  margin: 0;
+  font-size: 3vw;
+}
+
+main li time{
+  grid-row-start: 1;
+  grid-column-start: 2;
+  font-size: 1.5em;
+}
+
+main li time span{
+  position: absolute;
+  left: -999em;
+}
+
+main li::before{
+  display: block;
+  content: attr(data-day) ;
+  grid-row-start:1;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  align-self: end;
+  font-size: 10vw;
+  font-family: NeuePlakNarrow;
+}
+
+main li p {
+  grid-row-start: 1;
+  grid-column-start: 3;
+  margin: 0;
+  font-size: 1.5em;
+}
+/*waarom is dit de first of type, dat is het toch niet? */

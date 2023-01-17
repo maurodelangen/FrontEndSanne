@@ -1,0 +1,102 @@
+section{
+  padding-top: 1em;
+  border-top: 2px solid black;
+}
+
+section:last-of-type{
+  border-bottom: 2px solid black;
+}
+
+main h2 {
+  font-size: 1em;
+  /* waarom is 1.5 em > 1.5 em pirelli?? */
+  text-transform: uppercase;
+}
+
+main div {
+display: flex;
+width: 100%;
+justify-content: space-between;
+}
+
+main div:first-of-type {
+padding: 1.5em 0;
+}
+
+
+main>section:nth-last-of-type(2)>div:last-of-type{
+  display: block;
+width: 22vw;
+}
+
+section:nth-last-of-type(2){
+  display: flex;
+  background-color: green;
+  /* hoe krijg ik de items 50/50 */
+}
+
+main div img{
+  width: 22vw;
+}
+
+/* footer logos dingetje------------------------------------------ */
+main ul{
+display: flex;
+justify-content: flex-end;
+}
+
+main ul li{
+  padding: 0 1em;
+}
+
+main ul img{
+  height: 2em;
+}
+/* footer logos dingetje------------------------------------------ */
+
+
+/*-----------------------main content----------*/
+
+
+/* marquee---------------------------------------------------------------
+marquee {
+  font-family: "pirelli";
+  writing-mode: vertical-lr;
+}
+
+.marquee-wrapper {
+    position: relative;
+    display: block;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+.marquee {
+    position: absolute;
+    display: block;
+    margin: auto auto;
+    white-space: nowrap;
+    overflow: hidden;
+    min-width: 100%;
+    height: 100%;
+}
+.marquee span {
+    display: inline-block;
+    padding-left: 100%;
+    white-space: nowrap;
+    min-width: 100%;
+    line-height: 100%;
+    height: 100%;
+    animation: marquee 10s linear infinite;
+}
+.marquee2 span {
+    animation-delay: 5s;
+}
+@keyframes marquee {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(-100%, 0);
+    }
+}
+*/

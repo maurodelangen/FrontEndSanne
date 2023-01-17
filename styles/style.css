@@ -1,14 +1,19 @@
-/**************/
-/* CSS REMEDY */
-/**************/
-*, *::after, *::before {
-  box-sizing:border-box;  
+/* eigen fonts bron: garagenoord rip                                   */
+@font-face {
+  font-family: pirelli;
+  src: url(/fonts/pirelli-regular.ttf);
 }
 
-button, summary {
-	cursor: pointer;
+@font-face {
+  font-family: NeuePlak;
+  src: url(/fonts/NeuePlak-NarrowBlack.ttf);
 }
 
+
+@font-face {
+  font-family: NeuePlakNarrow;
+  src: url(/fonts/NeuePlak-NarrowRegular.woff2);
+}
 
 
 
@@ -16,19 +21,126 @@ button, summary {
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
-:root {
-	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+
+
+
+
+
+
+/**************/
+/* CSS REMEDY */
+/**************/
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+button, summary {
+  cursor: pointer;
+}
+
+html{
+  margin: 0;
+  padding: 0;
+  background-color: #F7F7F7;
+}
+
+ul, ol{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li a {
+  text-decoration: none;
 }
 
 
+/* split screen */
+body{
+  display: flex;
+margin: 0;
+}
+
+header, main {
+  width: 50%;
+  height: 100vh;
+}
 
 
+main {
+  display: block;
+  overflow-y: auto;
+  overflow-x: hidden;
+  font-family: "pirelli";
+  color: black;
+  padding: 1em;
+}
 
-/****************/
-/* JOUW STYLING */
-/****************/
+/*----------------------header--------nav----------*/
 
-/* jouw code */
+header{
+  background-color: #000000;
+  padding: 0 1em;
+}
 
+nav{
+  height: 100%;
+  padding: 1em 0;
+}
+
+nav ul {
+  font-family: "NeuePlak";
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  /*display: none;*/
+  /* mobile first*/
+}
+
+/* header selector zodat eventuele latere a elementen niet worden meegenomen */
+header ul li a {
+  color: #B2B2B1;
+  font-size: 6rem;
+}
+
+header ul li{
+  border-top: 2px solid #F7F7F7  ;
+  height: 100%;
+}
+
+header ul li:last-of-type{
+border-bottom: 2px solid #F7F7F7  ;
+}
+
+header ul li a:hover{
+  color: #F7F7F7;
+}
+
+/*----------------------header--------nav----------*/
+
+/* buttons ----------------------------------------------*/
+main section div button {
+  font-size: 0.8em;
+  border-radius: 2em;
+  background-color: #F7F7F7;
+  border: 2px solid black;
+  /* hoe in em/rem */
+  padding: .4em;
+  width: 22vw;
+  /*mag dit ? */
+}
+
+button:hover {
+  background-color: black;
+  color: #F7F7F7;
+}
+
+/* button styling */
+button a {
+  text-decoration: none;
+  color: black;
+  font-family: "pirelli";
+}
+
+
+/* buttons ----------------------------------------------*/
