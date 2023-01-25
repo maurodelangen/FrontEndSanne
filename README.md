@@ -239,6 +239,8 @@ De website opent meteen op de span, een herhalende tekst, de gebruiker hoort dus
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+De screenshots van mijn code heb ik als tekst opgeslagen bij mijn notitites
+
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -279,17 +281,24 @@ socials -> nav ul li
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
+
+
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd:
   Korte omschrijving met plaatjes
+Mijn website was heel accuraat geworden en ik heb alles wat ik wilde aan de praat gekregen. Ik heb ook heel veel geleerd.
+
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+het terugschuiven van mijn linkerhelft op de clubpagina was niet gelukt.
+Ook is er een lijn van 1 px links van de club pagina.
+ook al focussede (???) ik op surface plane de mobile versie was niet gelukt.
+met name een werken hamburgermenu via een click
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
@@ -318,5 +327,11 @@ socials -> nav ul li
   11. https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content
   12. https://www.youtube.com/watch?v=sVZX0XvEBhk&t=733s
   13. https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseenter_event
+  14. https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translateX
+  15. https://www.w3schools.com/css/css3_transitions.asp
+  16. https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event
+  17. https://www.youtube.com/watch?v=ih44U6EWyOs
+  18. https://www.w3schools.com/css/css3_mediaqueries_ex.asp
+  19. https://www.w3schools.com/css/css_positioning.asp#:~:text=An%20element%20with%20position%3A%20relative,gap%20left%20by%20the%20element.
 
 </details>
