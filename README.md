@@ -183,10 +183,9 @@ De website opent meteen op de span, een herhalende tekst, de gebruiker hoort dus
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  ik heb doorgewerkt met Sanne en Kenneth en ik heb hulp gekregen met het maken van een grid
+
+  <img src="readme-images/5.screenshot_club.png" width="375px" alt="bummer">
 
 </details>
 
@@ -200,30 +199,25 @@ De website opent meteen op de span, een herhalende tekst, de gebruiker hoort dus
   <summary>uitwerken na test in 8e werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  Pijltjes doen niets -> pagina refresh
 
-  #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Lijst met social links leest bestandsnamen voor  -> alt opgeven
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  List item club pagina leest hij een getal voor moet niet X geen fix gevonden want is ::before
 
+  Focus within dingetje - was tijdelijk en niet echt bij mij van toepassing
 
-  #### Muis en Toetsenbord
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Button op index is wel/geen link?  -> was link naar download
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Relatief pad absoluut pad -> goed opletten op github
 
+  Colom gap row gap
 
-  #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Custom properties -> gefixt
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  P tel link + email >>>>>>>>>. contact
 
-
-  #### Visueel (brillen, contrast, kleurenblind, dark/light).
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  screenreader werkt goed en leest alle koppen voor.
 
 </details>
 
@@ -283,15 +277,12 @@ socials -> nav ul li
   ### Je uitkomst - karakteristiek screenshots:
 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/eindsite.gif"  alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd:
   Korte omschrijving met plaatjes
 Mijn website was heel accuraat geworden en ik heb alles wat ik wilde aan de praat gekregen. Ik heb ook heel veel geleerd.
-
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
@@ -300,7 +291,7 @@ Ook is er een lijn van 1 px links van de club pagina.
 ook al focussede (???) ik op surface plane de mobile versie was niet gelukt.
 met name een werken hamburgermenu via een click
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/screenshot_pixel_links" width="375px" alt="bummer">
 </details>
 
 
