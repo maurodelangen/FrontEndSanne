@@ -1,102 +1,113 @@
-section{
-  padding-top: 1em;
-  border-top: 2px solid black;
+main{
+  padding: 1em 2em;
+  overflow: auto;
 }
 
-section:last-of-type{
-  border-bottom: 2px solid black;
+main p, main h2, main span {
+  font-family: "pirelli";
+  color: black;
+  font-size: 1.5em;
+}
+
+section {
+  padding-top: 1em;
+  border-top: var(--border);
+  ;
+}
+
+/* buttons ----------------------------------------------*/
+main section div button {
+  font-size: 1.55em;
+  border-radius: 1em;
+  background-color: var(--garage-grijs);
+  border: var(--border);
+  width: 22vw;
+}
+
+main section div button:hover {
+  background-color: black;
+  color: var(--garage-grijs);
+}
+
+/* button styling */
+main section div button a {
+  text-decoration: none;
+  color: black;
+  font-family: "pirelli";
+}
+
+/*  ----------------------------------------------*/
+section:last-of-type {
+  padding-top: 3em;
+  padding-bottom: 1.5em;
+  border-bottom: var(--border);
+  ;
 }
 
 main h2 {
-  font-size: 1em;
-  /* waarom is 1.5 em > 1.5 em pirelli?? */
   text-transform: uppercase;
 }
 
 main div {
-display: flex;
-width: 100%;
-justify-content: space-between;
-}
-
-main div:first-of-type {
-padding: 1.5em 0;
-}
-
-
-main>section:nth-last-of-type(2)>div:last-of-type{
-  display: block;
-width: 22vw;
-}
-
-section:nth-last-of-type(2){
   display: flex;
-  background-color: green;
-  /* hoe krijg ik de items 50/50 */
+  width: 100%;
+  justify-content: space-between;
 }
 
-main div img{
+main section:first-of-type div button, main section:first-of-type div img {
+  margin-bottom: 2em;
+}
+
+main div img {
   width: 22vw;
 }
 
-/* footer logos dingetje------------------------------------------ */
-main ul{
-display: flex;
-justify-content: flex-end;
+main section:nth-last-of-type(2) div:last-of-type, section:nth-last-of-type(2) ol {
+  display: block;
+  width: 22vw;
 }
 
-main ul li{
+
+section:nth-last-of-type(2) {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* footer logos dingetje------------------------------------------ */
+main ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+main ul li {
   padding: 0 1em;
 }
 
-main ul img{
+main ul img {
   height: 2em;
 }
-/* footer logos dingetje------------------------------------------ */
 
+/*media query 1100px----------------------------------------------- */
+@media screen and (max-width: 1100px) {
+  main section div button {
+    width: 100%;
+  }
 
-/*-----------------------main content----------*/
+  main section:first-of-type div {
+    flex-direction: column;
+  }
 
+  main div img {
+    width: 100%;
+  }
 
-/* marquee---------------------------------------------------------------
-marquee {
-  font-family: "pirelli";
-  writing-mode: vertical-lr;
-}
+  main section:nth-last-of-type(2) div:last-of-type, section:nth-last-of-type(2) ol {
+    width: 100%;
+  }
 
-.marquee-wrapper {
-    position: relative;
-    display: block;
-    transform: translate(-50%, -50%);
-    overflow: hidden;
-}
-.marquee {
-    position: absolute;
-    display: block;
-    margin: auto auto;
-    white-space: nowrap;
-    overflow: hidden;
-    min-width: 100%;
-    height: 100%;
-}
-.marquee span {
-    display: inline-block;
-    padding-left: 100%;
-    white-space: nowrap;
-    min-width: 100%;
-    line-height: 100%;
-    height: 100%;
-    animation: marquee 10s linear infinite;
-}
-.marquee2 span {
-    animation-delay: 5s;
-}
-@keyframes marquee {
-    0% {
-        transform: translate(0, 0);
-    }
-    100% {
-        transform: translate(-100%, 0);
+  @media screen and (max-width: 1100px) {
+    section:nth-last-of-type(2) {
+      flex-direction: column;
     }
 }
-*/

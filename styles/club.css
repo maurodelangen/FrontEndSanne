@@ -1,16 +1,38 @@
+main {
+  background-color: var(--garage-grijs);
+}
 
-main li{
+main ol:first-of-type {
+  z-index: 2;
+  position: absolute;
+  background-color: var(--garage-grijs);
+  padding: 1em 2em;
+  height: 100vh;
+  overflow: auto;
+    border-left: var(--border);
+}
+
+main ol:first-of-type li:first-of-type {
+  border-top: var(--border);
+}
+
+main ol:nth-of-type(1) li {
   display: grid;
   grid-template-columns: 20% 1fr max-content;
   grid-template-rows: max-content minmax(11vw, max-content);
-  gap: 1em;
-border-bottom: 2px solid black;
-
-padding-bottom:1em;
-
+  grid-column-gap: 1em;
+  border-bottom: var(--border);
+  padding: 0.5em 0;
 }
 
-main li h2{
+main ol:nth-of-type(1) li:hover {
+  color: var(--garage-groen);
+  transition: .2s;
+}
+
+main ol:nth-of-type(1) li h2 {
+  font-family: "pirelli";
+  font-weight: 100;
   grid-row-start: 2;
   grid-column-start: 2;
   grid-column-end: 4;
@@ -18,21 +40,20 @@ main li h2{
   font-size: 3vw;
 }
 
-main li time{
+main ol:nth-of-type(1) li time {
   grid-row-start: 1;
   grid-column-start: 2;
-  font-size: 1.5em;
 }
 
-main li time span{
+main ol:nth-of-type(1) li time span {
   position: absolute;
   left: -999em;
 }
 
-main li::before{
+main ol:nth-of-type(1) li::before {
   display: block;
-  content: attr(data-day) ;
-  grid-row-start:1;
+  content: attr(data-day);
+  grid-row-start: 1;
   grid-row-end: 3;
   grid-column-start: 1;
   align-self: end;
@@ -40,10 +61,121 @@ main li::before{
   font-family: NeuePlakNarrow;
 }
 
-main li p {
+main ol:nth-of-type(1) li p {
   grid-row-start: 1;
   grid-column-start: 3;
   margin: 0;
-  font-size: 1.5em;
 }
-/*waarom is dit de first of type, dat is het toch niet? */
+
+/* ------------------------event article-------------*/
+main ol:nth-of-type(2)>li {
+  height: 100vh;
+  overflow: auto;
+  padding: 1em 2em;
+  position: relative;
+  background-color: var(--garage-grijs);
+}
+
+main ol:nth-of-type(2) {
+  z-index: 1;
+  width: 50vw;
+  position: absolute;
+  left: 50vw;
+  top: 0;
+  transform: translateX(0);
+}
+
+main ol:nth-of-type(2).left {
+  animation: slide 2s forwards;
+  animation-timing-function: ease-in-out;
+}
+
+
+@keyframes slide {
+0%{transform: translateX(0vw);}
+100% {  transform: translateX(-50vw);
+  }
+}
+
+
+main ol:nth-of-type(2) li img {
+  margin-top: 1em;
+  width: 25vw;
+  height: 25vw;
+}
+
+main ol:nth-of-type(2) li a img {
+  width: 2em;
+  height: auto;
+  margin-right: .5em;
+}
+
+main ol:nth-of-type(2)>li article {
+  border-top: var(--border);
+  border-bottom: var(--border);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+main ol:nth-of-type(2)>li>article section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+main ol:nth-of-type(2) li>article ul {
+  width: 100%;
+  display: grid;
+  grid-gap: .5em;
+  grid-template-columns: 1fr 1fr;
+}
+
+main ol:nth-of-type(2) li>article a {
+  color: black;
+  text-decoration: underline;
+}
+
+main time, main li, main p {
+  font-size: 1.25em;
+  font-family: "pirelli";
+}
+
+/*-----------------------------------------------------------------*/
+li button {
+  position: absolute;
+  top: -6em;
+  left: -6em;
+  padding: 0;
+  border: none;
+  background: none;
+  width: 0;
+}
+
+li button div svg {
+  position: absolute;
+  top: 5em;
+  left: 9em;
+  width: 2em;
+  height: 2em;
+  fill: var(--garage-grijs);
+  transform: rotate(45deg);
+  transition: .5s;
+  transition-timing-function: ease-out;
+}
+
+li button div svg.hover {
+  fill: var(--garage-groen);
+  transition-timing-function: ease-in;
+  transition: .5s;
+}
+
+li button div {
+  background-color: black;
+  width: 12em;
+  height: 12em;
+  position: relative;
+  transform: rotate(45deg);
+}

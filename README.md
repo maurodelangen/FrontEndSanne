@@ -166,7 +166,7 @@ De website opent meteen op de span, een herhalende tekst, de gebruiker hoort dus
   Uitlijnen helften
   Linker helft is niet 100% maar heeft nog ruimte beneden
   Hoe coveren helften hele pagina
-  Hoe responsive tekst header 
+  Hoe responsive tekst header
 
   semantiek
 
@@ -314,6 +314,9 @@ socials -> nav ul li
   7. https://www.youtube.com/watch?v=OJ6byQDF9-Y
   8. https://www.youtube.com/watch?v=WWN-68aQ-Qk
   8. https://www.youtube.com/watch?v=ZOkuKkiqSlw
-  10.
+  10. https://www.w3schools.com/css/css_border_shorthand.asp
+  11. https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content
+  12. https://www.youtube.com/watch?v=sVZX0XvEBhk&t=733s
+  13. https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseenter_event
 
 </details>
